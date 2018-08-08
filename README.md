@@ -31,4 +31,6 @@
 
 依赖：
 -----
+    Mysql数据库，Mysql++(Mysql官网提供的API),boost(c++库)，MDUI(开源前端框架，直接百度即可)/<br>
+    google Ctemplate(谷歌的第三方库，主要用来成网页)，jQuery(支持ajax，实现异步网页刷新)
   
