@@ -25,12 +25,14 @@
      * login_cgi.cpp(登录文件)              * addpro_cgi.cpp(添加项目简介)
      * update_cgi.cpp(修改密码文件)         * delproj_cgi.cpp(删除项目简介) 
      * select_cgi.cpp(查询文件)             * set_cgi.cpp(设置展示内容)    
-流程：
------
-    
-
-依赖：
------
-    Mysql数据库，Mysql++(Mysql官网提供的API),boost(c++库)，MDUI(开源前端框架，直接百度即可)/<br>
-    google Ctemplate(谷歌的第三方库，主要用来成网页)，jQuery(支持ajax，实现异步网页刷新)
-  
+     wwwroot
+     * css(MDUI开源框架的css文件)                * show.tpl(展示页面)
+     * fonts(MDUI开源框架的字体文件)             * regist_cgi.tpl(注册界面，同步刷新)
+     * icons(MDUI开源框架的图标文件)             * update_cgi.tpl(修改密码，同步刷新)
+     * images(背景图片)                         * login_cgi.tpl(登录失败，同步刷新)
+     * js(MDUI开源框架的css文件和jQuery库)       * resume_cgi.tpl(简历界面，异步刷新)
+     * favicon.ico(网页图标，百度即可)           * note_cgi.tpl(笔记界面，异步刷新)
+     * AllFile(所有用户的简历存储，Git中没有)     * project_cgi.tpl(项目界面，异步刷新)
+     * cache(缓存文件目录，Git中没有)            * set_cgi.tpl(设置界面，异步刷新)
+     * index.tpl(首页文件)                      * error.tpl(错误提示，异步刷新)
+     * personal.tpl(用户界面)                                 
