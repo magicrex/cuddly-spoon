@@ -17,14 +17,14 @@
 -----
      * 数据库.txt(搭建数据库文档)            * util.hpp(工具类)
      * DBoperate.hpp(操作数据库)            * log.txt(日志文件)
-     * Makefile                            * upfile_cgi.cpp()
-     * httpserver.h(TCP连接头文件)          * delfile_cgi()
-     * httpserver.cpp(HTTP请求处理)         * modimess_cgi.cpp()
-     * httpserver_main.cpp(程序入口函数)    *  
-     * regist_cgi.cpp(注册文件)
-     * login_cgi.cpp(登录文件)
-     * update_cgi.cpp(修改密码文件)
-     * select_cgi.cpp(查询文件)
+     * Makefile                            * upfile_cgi.cpp(上传文件)
+     * httpserver.h(TCP连接头文件)          * delfile_cgi(删除文件)
+     * httpserver.cpp(HTTP请求处理)         * modimess_cgi.cpp(修改简介)
+     * httpserver_main.cpp(程序入口函数)    * addstu_cgi.cpp(添加笔记链接)
+     * regist_cgi.cpp(注册文件)             * delnote_cgi.cpp(删除笔记链接)
+     * login_cgi.cpp(登录文件)              * addpro_cgi.cpp(添加项目简介)
+     * update_cgi.cpp(修改密码文件)         * delproj_cgi.cpp(删除项目简介) 
+     * select_cgi.cpp(查询文件)             * set_cgi.cpp(设置展示内容)    
 流程：
 -----
     
